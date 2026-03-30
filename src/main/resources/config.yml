@@ -1,0 +1,25 @@
+defaultEndLocked: false
+defaultDragonEnabled: false
+disableDragonMovement: false
+teleportLocation:
+  useWorldSpawn: true
+  world: world
+  x: 0.5
+  y: 100.0
+  z: 0.5
+  yaw: 0.0
+  pitch: 0.0
+messages:
+  endLocked: "&cThe End is currently locked!"
+  dragonOff: "&eDragon is peaceful!"
+  dragonOn: "&aDragon fight enabled!"
+  endUnlocked: "&aThe End has been opened!"
+  endLockedBroadcast: "&cThe End has been locked!"
+  timerScheduled: "&eScheduled %action% in %minutes% minute(s)."
+  timerCancelled: "&cExisting End timer cancelled."
+  timerNothingToDo: "&eThe End is already unlocked and the dragon is already enabled."
+  noPermission: "&cYou do not have permission to use this command."
+  statusLocked: "&cLOCKED"
+  statusUnlocked: "&aUNLOCKED"
+  statusDragonOn: "&aON"
+  statusDragonOff: "&eOFF"

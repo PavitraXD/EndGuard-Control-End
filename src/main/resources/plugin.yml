@@ -1,0 +1,15 @@
+name: EndGuard
+version: 1.0.0
+main: com.endmastercontrol.EndMasterControlPlugin
+api-version: '1.21'
+author: PavitraXD
+description: Controls End access and dragon behavior across all End worlds.
+commands:
+  end:
+    description: Controls End access and dragon behavior.
+    usage: /end <lock|unlock|dragon on|dragon off|status|timer <minutes>>
+    permission: end.admin
+permissions:
+  end.admin:
+    description: Allows management of the EndMasterControl plugin.
+    default: op
